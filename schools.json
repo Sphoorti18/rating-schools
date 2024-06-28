@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Swami Vivekanand Vidyaprasarak Mandal Primary School",
+        "address": "Vivekanand Vidyalaya, Goa, India",
+        "mapsLink": "https://www.google.com/maps/place/Vivekanand+Vidyalaya/@15.399139,74.0098174,17z/data=!3m1!4b1!4m6!3m5!1s0x3bbfbab93667b5d1:0xb7afe8fc71a27e83!8m2!3d15.3991338!4d74.0123923!16s%2Fg%2F1x6q06bw?authuser=0&entry=ttu"
+    },
+    {
+        "name": "Goa Engineering College",
+        "address": "Ponda, Goa, India",
+        "mapsLink": "https://maps.google.com/?q=Goa+Engineering+College"
+    },
+    {
+        "name": "DBCE",
+        "address": "Fatorda, Margao, Goa, India",
+        "mapsLink": "https://maps.google.com/?q=DBCE"
+    },
+    {
+        "name": "AITD",
+        "address": "Assagao, Goa, India",
+        "mapsLink": "https://maps.google.com/?q=AITD"
+    }
+    
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "schoolName": "School 1",
+        "address": "123 Main St, City, Country",
+        "ratings": [
+            {
+                "user": "UserA",
+                "rating": 4.5,
+                "review": "Great school with excellent teachers.",
+                "date": "2024-01-10T08:00:00Z"
+            },
+            {
+                "user": "UserB",
+                "rating": 4.0,
+                "review": "Good environment but needs better facilities.",
+                "date": "2024-02-14T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "schoolName": "School 2",
+        "address": "456 Elm St, City, Country",
+        "ratings": [
+            {
+                "user": "UserC",
+                "rating": 5.0,
+                "review": "Outstanding school with top-notch staff.",
+                "date": "2024-03-20T12:00:00Z"
+            },
+            {
+                "user": "UserD",
+                "rating": 3.5,
+                "review": "Average school with room for improvement.",
+                "date": "2024-04-10T09:00:00Z"
+            }
+        ]
+    },
+    {
+        "schoolName": "School 3",
+        "address": "789 Maple St, City, Country",
+        "ratings": [
+            {
+                "user": "UserE",
+                "rating": 4.0,
+                "review": "Good overall, but the infrastructure needs an upgrade.",
+                "date": "2024-05-15T14:00:00Z"
+            },
+            {
+                "user": "UserF",
+                "rating": 4.8,
+                "review": "Excellent academic curriculum and supportive teachers.",
+                "date": "2024-06-05T11:00:00Z"
+            }
+        ]
+    }
+]

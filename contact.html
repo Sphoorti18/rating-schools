@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - School Ratings India</title>
+    <style>
+        @media only screen and (max-width: 1820px) {
+            body {
+                background: url('/assets/about.jpg') no-repeat center center fixed;
+                background-size: cover;
+            }
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.6); /* Adjusted opacity for better blending */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for better contrast */
+        }
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff; /* White color for better contrast */
+            margin-bottom: 20px; /* Space between h1 and content */
+        }
+        .content {
+            color: #333; /* Dark color for readability */
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0066cc;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #004c99;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="/main.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/login.html">Sign-up or Login Account</a>
+        <a href="/contact.html">Contact</a>
+    </div>
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="content">
+            <p>If you have any questions, feedback, or need assistance, please feel free to contact us using the form below:</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
